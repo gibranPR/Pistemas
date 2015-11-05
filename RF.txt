@@ -2,6 +2,6 @@ RF1: El sistema permite al profesor o maestro editar en linea el formato de cont
 RF2: El sistema permite al alumno entrar como usuario e interactuar en linea.
 RF3: El administrador interviene asociando primero a maestros con materias y despues alumnos con maestros.
 RF4: El sistema debe identificar usuarios como profesor y alumnos siempre que se inicie sesión.
-RF5: El sistema debe de dividirse en varias ramas al momentos de utilizar este sistema: administrador, alumno y profesor.
+RF5: El sistema debe de dividirse en varias ramas al momentos de utilizar este sistema.
 RF6: Cada usuario puede iniciar sesión en el sistema con la condición de insertar su numero de control junto con una contraseña mayor a 5 digitos.
 RF8: El alumno usando su cuenta puede acceder al sistema para consultar informacion del curso.

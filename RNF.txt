@@ -7,5 +7,5 @@ RNF
 5- El sistema tendra la capacidad de respuesta al acceso de todos los usuarios con un tiempo aceptable.
 6- El sistema no permitira el cierre de una operacion hasta que todos los procesos relacionados a este sean terminados
    sactifactoriamente.
-7- El sistema estará dospinible en cualquier momento.
+7- El sistema estará disponible en cualquier momento.
 8- Se pueden visualizar y/o descargar archivos respecto al curso.

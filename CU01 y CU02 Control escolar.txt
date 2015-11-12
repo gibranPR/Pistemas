@@ -1,0 +1,55 @@
+Casos de uso (Control escolar).
+
+CU01: Iniciar sesión.
+Actor principal: Alumno.
+Personas Involucradas.
+    -Maestro: -Esta interesado en modificar calificación de alumns.
+               -Checa actividad de alumnos (tareas y proyectos).
+               -Actualizar el curso.
+               -Generar reporte por cursos impartidos.
+    -Administrador: -Le interesa gestionar niveles de acceso por usuario (Maestro y alumno).
+                    -Crear materias que se impartiran.
+Pre-condiciones: El usuario siendo maestro o alumno tiene que estar registrado, que el sistema este disponible.
+Post-condiciones: Usuario (alumno o maestro) dentro del sistema.
+Escenario principal de exito: 1-El alumno o maestro inicia o carga el sistema.
+                              2-EL el alumno o maestro ingresa nombre de usuario y contraseña.
+                              3-El sistema verifica datos ingresados.
+                              4-El usuario inicia sesion en el sistema.
+Extensiones (Flujos alternativos).
+                                    1- El sistema no carga.
+                                        *F5 para actualizar y volver a ingresar ID y contraseña.
+                                        *Verificar que haya una conexión correcta al servidor.
+                                        *Mala conexión a internet.
+                                    3-Los datos no son correctos.
+                                        *Volver a ingresar los datos.
+                                        *Verificar que la escritura haya sido la correcta.
+                                        *Verificar que su cuenta no este siendo usada por alguien mas.
+                                        
+CU02: Cargar materias.
+Actor Principal: Alumno.
+Personas involucradas.
+-Maestro: -Esta interesado en checar cuantos alumnos han sido elegido llevar la materia con el.
+          -Debe enterar del horario del cual dispone la materia
+          -Debe de enterarse de la materia que va a impartir.
+    -Administrador: -Le interesa gestionar niveles de acceso por usuario (Maestro y alumno).
+                    -Crear materias que se impartiran.
+Pre-condiciones: El usuario siendo maestro o alumno tiene que estar registrado, que el sistema este disponible la                      cargar materias, evaluar docente (siendo de 2do semestre en adelante).
+Post-condiciones: Usuario (alumno o maestro) dentro del sistema.
+Escenario principal de exito: 1-El alumno o maestro inicia o carga el sistema.
+                              2-EL el alumno o maestro ingresa nombre de usuario y contraseña.
+                              3-El sistema verifica datos ingresados.
+                              4-El usuario inicia sesion en el sistema.
+Extensiones (Flujos alternativos).
+                                    1- El sistema no carga.
+                                        *F5 para actualizar y volver a ingresar ID y contraseña.
+                                        *Verificar que haya una conexión correcta al servidor.
+                                        *Mala conexión a internet.
+                                    3-Los datos no son correctos.
+                                        *Volver a ingresar los datos.
+                                        *Verificar que la escritura haya sido la correcta.
+                                        *Verificar que su cuenta no este siendo usada por alguien mas.
+                                        
+                                        
+                                        
+                                        
+                                        

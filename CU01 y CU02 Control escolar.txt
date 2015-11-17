@@ -35,6 +35,7 @@ Personas involucradas.
                     -Crear materias que se impartiran.
 Pre-condiciones: El usuario siendo maestro o alumno tiene que estar registrado, que el sistema este disponible la                      cargar materias, evaluar docente (siendo de 2do semestre en adelante).
 Post-condiciones: Usuario (alumno o maestro) dentro del sistema.
+                  Usuario trabajando dentro del sistema.
 Escenario principal de exito: 1-El alumno o maestro inicia o carga el sistema.
                               2-EL el alumno o maestro ingresa nombre de usuario y contraseña.
                               3-El sistema verifica datos ingresados.

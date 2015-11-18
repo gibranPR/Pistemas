@@ -97,7 +97,12 @@ Personas involucradas:
         -Administrador: Actualiza datos en el sistema.
 Pre-condiciones: -El el usuario siendo maestro o alumno debe de estar registrado.
                  -Que el sistema este disponible.
-Post-condiciones: -
-
+Post-condiciones: -Los datos son mostrados al usuario.
+Escenario principal: 1-El inicia sesión.
+                     2-El usuario verifica sus datos.
+Extensiones (flujos alternativos):
+                                    1-El sistema no carga datos.
+                                    *F5 para actualizar.
+                                    *Mala conexión a internet.
                                         
                                         

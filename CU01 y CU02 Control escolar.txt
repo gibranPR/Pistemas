@@ -90,6 +90,14 @@ Extensiones (Flujos alternativos).
                                         *Verificar que haya una conexión correcta al servidor.
                                         *Mala conexión a internet.
                                     
-Consultas de datos.
+CU05: Consultas de datos.
+Actor Principal: Alumno.
+Personas involucradas: 
+        -Maestro: -Checa actividad de materias, alumnos, horarios, etc.
+        -Administrador: Actualiza datos en el sistema.
+Pre-condiciones: -El el usuario siendo maestro o alumno debe de estar registrado.
+                 -Que el sistema este disponible.
+Post-condiciones: -
+
                                         
                                         

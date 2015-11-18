@@ -72,8 +72,24 @@ Flujos alternativos: 1-El usuario alumno no puede seleccionar la opcion de ticke
                     
 CU04: Actividades complementarias.
 Actor principal: Alumno.
-Personas involucradas:  
-
+Personas involucradas:
+     -Maestro: -Checa actividad de alumnos (asistencia, examenes).
+               -Actualizar el curso.
+               -Generar reporte de creditos.
+    -Administrador: -Le interesa gestionar niveles de acceso por usuario (Maestro y alumno).
+                    -Crear y administrar actividades que se impartiran.
+Pre-condiciones: -El usuario siendo maestro o alumno tiene que estar registrado.
+                 -Que el sistema este disponible.
+Post-condiciones: -Usuario alumno recibe su creditos.
+                  -Usuario  maestro agrega creditos a asuario alumno.
+Escenario principal de exito: 1-El usuario alumno carga su actividad.
+                              2-El usuario alumno termina su actividad y recibe su credito.
+Extensiones (Flujos alternativos).
+                                    1- El sistema no deja cargar actividad.
+                                        *F5 para actualizar.
+                                        *Verificar que haya una conexión correcta al servidor.
+                                        *Mala conexión a internet.
+                                    
 Consultas de datos.
                                         
                                         

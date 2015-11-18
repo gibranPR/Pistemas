@@ -47,6 +47,33 @@ Extensiones (Flujos alternativos).
                                         *Verificar que su cuenta no este siendo usada por alguien mas.
                                         
                                         
-                                        
+CU03: Crear ticket
+Actor principal: Alumno.
+Personas involucradas.
+                     Administrador: 
+                        -Le interesa reponder esos ticket.
+                        -Resolver dudas o problemas. 
+                        -Actualizar el sistema.
+Pre-condiciones: -El usuario del alumno tiene que haber iniciado sesion.
+                 -Haber experimentado algun problema en el sistema de cargas.
+                 -Ubicar el boton de creacion de ticket.
+Post-condiciones: -Esperar la respuesta de del administrador para la resolucion del problema.
+                  -Checar actualización en el sistema.
+Escenario principal de exito: 1-El usuario alumno selecciona la opción de ticket.
+                              2-El usuario alumno expone su problema o selecciona alguna de la opciones posibles.
+                              3-El usuario alumno finaliza la creacion de ticket.
+Flujos alternativos: 1-El usuario alumno no puede seleccionar la opcion de ticket.
+                        *Verificar conexión.
+                        *Verificar que el horario de ticket siga vigente.
+                        *En caso de seleccionar la opción de agregar mas materias, no exceder el numero de creditos                            por masterias.
+                     2-El usuario no puede finalizar su ticket.
+                        *Verificar conexión.
+                        
+                    
+CU04: Actividades complementarias.
+Actor principal: Alumno.
+Personas involucradas:  
+
+Consultas de datos.
                                         
                                         

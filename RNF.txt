@@ -1,4 +1,4 @@
-RNF
+﻿RNF
 
 1- El sistema debe tener la fluides para que el usuario pueda encontrar lo que necesita.
 2- El sistema garantiza confiabilidad y seguridad a los diferentes usuarios.
@@ -9,3 +9,4 @@ RNF
    sactifactoriamente.
 7- El sistema estará disponible en cualquier momento.
 8- Se pueden visualizar y/o descargar archivos respecto al curso.
+9-
